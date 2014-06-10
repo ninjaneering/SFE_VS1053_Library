@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map For SFMusicalShield
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SFMusicalShield KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+noteOn	KEYWORD2
+noteOff	KEYWORD2
+setBank	KEYWORD2
+setInstrument	KEYWORD2
+setVolume	KEYWORD2
+setReverbLevel  KEYWORD2
+talkMIDI	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ACOUSTIC_GRAND_PIANO    LITERAL1
+HARMONICA   LITERAL1
+ACOUSTIC_GUITAR_NYLON LITERAL1
+TRUMPET LITERAL1
+BAG_PIPE    LITERAL1
+WOODBLOCK   LITERAL1
+
+BASIC_INSTRUMENTS   LITERAL1
+PERCUSSION1 LITERAL1
+PERCUSSION2 LITERAL1
+MELODIC LITERAL1
