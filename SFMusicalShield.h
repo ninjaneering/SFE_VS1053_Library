@@ -46,7 +46,8 @@ class SFMusicalShield
         
         void noteOn(byte channel, byte note, byte attack_velocity);
         void noteOff(byte channel, byte note, byte release_velocity);
-        
+	void allOff(byte channel);
+
         void setBank(byte channel, byte bank);
         void setInstrument(byte channel, byte bank);
         void setVolume(byte channel, byte volume);

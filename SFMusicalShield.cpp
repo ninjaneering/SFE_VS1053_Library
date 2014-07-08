@@ -64,6 +64,10 @@ void SFMusicalShield::noteOff(byte channel, byte note, byte release_velocity) {
     talkMIDI( (0x80 | channel), note, release_velocity);
 }
 
+void SFMusicalShield::allOff(byte channel) {
+  talkMIDI( (0xB0 | channel), 0x78, 0);
+}
+
 void SFMusicalShield::setBank(byte channel, byte bank) {
   talkMIDI( (0xB0 | channel), 0, bank);
 }
